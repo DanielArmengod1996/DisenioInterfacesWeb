@@ -15,6 +15,8 @@
     
     margin-left:        auto;
     margin-right:       auto;
+
+    background-color: gray
 }
 
 #nombreApellidos{
@@ -33,7 +35,7 @@
     font-size: 15px;
     display: inline-block;
     
-    border: solid black 5px;
+    border: solid steelblue 5px;
     border-radius: 5px;
     background-color: coral;
     padding: 10px;
@@ -46,8 +48,10 @@
 #buttonGroup{
     margin-right: 100%;
     margin-top: 50px;
+    width: 150px;
+    padding: 5px;
 
-    border: solid white 5px;
+    border: solid black 5px;
 
 }
 
