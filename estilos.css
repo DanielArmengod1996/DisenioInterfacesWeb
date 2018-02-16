@@ -15,8 +15,10 @@
     
     margin-left:        auto;
     margin-right:       auto;
+    margin-top: 2%;
 
     background-color: gray
+
 }
 
 #nombreApellidos{
@@ -35,9 +37,9 @@
     font-size: 15px;
     display: inline-block;
     
-    border: solid steelblue 5px;
+    border: solid #000000 5px;
     border-radius: 5px;
-    background-color: coral;
+    background-color: #6c806c;
     padding: 10px;
     margin-top: 5px;
 
@@ -49,18 +51,29 @@
     margin-right: 100%;
     margin-top: 50px;
     width: 150px;
-    padding: 5px;
+    margin: 5px;
 
     border: solid black 5px;
 
+    background-color: #bfbfbf;
 }
 
 #bt:hover{
    width: 150px; 
 }
 
+#plantillaPagina{
+    margin-left:    auto;
+    margin-right:   auto;
+
+    background-color: #299129;
+
+    border: solid black 8px;
+    border-radius: 4px;
+}
+
 body{
-    background-color: rgb(128, 81, 81);
+    background-color: #101210;
 
     padding-top     : 10px;
     padding-left    : 15px;
