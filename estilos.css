@@ -21,6 +21,16 @@
 
 }
 
+#imagen{
+    margin-left:        15%;
+    margin-right:       auto;
+    
+    align-content: center;
+
+    border:           black solid 5px;
+    border-radius:      5px;
+}
+
 #nombreApellidos{
     text-align: right;   
     padding-bottom: 10px;
@@ -47,6 +57,11 @@
     
 }
 
+
+video{
+    margin-left: 2%;
+}
+
 #buttonGroup{
     margin-right: 100%;
     margin-top: 50px;
@@ -70,6 +85,15 @@
 
     border: solid black 8px;
     border-radius: 4px;
+}
+
+#personalInput{
+    border: solid black 3px;
+    border-radius: 5px;
+}
+
+#personalInput:focus{
+    border: solid yellow 4px;
 }
 
 body{

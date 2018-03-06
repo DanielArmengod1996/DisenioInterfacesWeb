@@ -1,0 +1,46 @@
+<html>
+    
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <meta charset="UTF-8"/>
+        
+        <script>
+            var bool=false;
+            function reproducirVideo(){
+                
+                if(!bool){
+                    document.getElementById("elvideo").play();
+                    bool = true;
+                }
+                else{
+                    document.getElementById("elvideo").pause();
+                    bool = false;
+                }
+            }
+        </script>
+        
+        <div id = "nombreApellidos">
+            Daniel Armengod Sorrosal 2º de DAW
+        </div>
+    
+    </head>
+    
+    <body>
+        <div id="plantillaPagina">
+            
+            <div id = "etiqueta"> 
+                <div id="textoEtiqueta"> AYUDA </div>
+            </div>
+            <video id="elvideo" src="mutation.mp4">
+            </video>
+            <input type="button" onClick="reproducirVideo()" value="play/stop"></button>
+            
+            <div id="buttonGroup">
+                    <a id="bt" href="index.html">Volver atras</a>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
